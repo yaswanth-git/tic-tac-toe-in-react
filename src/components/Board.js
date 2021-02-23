@@ -22,8 +22,8 @@ function calculateWinner(squares) {
 }
 
 class Board extends Component {
-    constructor(props) {
-      super(props);
+    constructor() {
+      super();
       this.state = {
         squares: Array(9).fill(null),
         xIsNext: true,
